@@ -1,0 +1,8 @@
+repos:
+  - repo: https://github.com/kreozalabs/tooling
+    rev: v1.0.0
+    hooks:
+      - id: kreoza-prettier
+      - id: kreoza-eslint
+      - id: kreoza-gofmt
+      - id: kreoza-ruff

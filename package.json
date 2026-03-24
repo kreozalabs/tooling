@@ -1,0 +1,27 @@
+{
+  "name": "@kreozalabs/tooling",
+  "private": true,
+  "description": "Centralized tooling and configurations for Kreoza projects.",
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "test": "turbo run test",
+    "format": "prettier --write \"**/*.{js,ts,json,md,yml,yaml}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5",
+    "turbo": "^1.12.4"
+  },
+  "packageManager": "pnpm@10.32.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kreozalabs/tooling.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kreozalabs/tooling/issues"
+  },
+  "homepage": "https://github.com/kreozalabs/tooling#readme",
+  "engines": {
+    "node": ">=24"
+  }
+}

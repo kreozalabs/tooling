@@ -1,0 +1,24 @@
+{
+  "name": "@kreozalabs/prettier-config",
+  "version": "1.0.0",
+  "description": "Shareable Prettier configuration for Kreoza",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "kreozalabs"
+  ],
+  "author": "Kreoza Labs",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kreozalabs/tooling.git",
+    "directory": "packages/prettier-config"
+  },
+  "bugs": {
+    "url": "https://github.com/kreozalabs/tooling/issues"
+  }
+}

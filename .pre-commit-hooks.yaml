@@ -1,0 +1,28 @@
+- id: kreoza-prettier
+  name: Kreoza Prettier
+  entry: prettier --write --ignore-unknown
+  language: node
+  types: [text]
+  additional_dependencies: ["prettier@^3.2.5"]
+
+- id: kreoza-eslint
+  name: Kreoza ESLint
+  entry: eslint --fix
+  language: node
+  types: [javascript]
+  additional_dependencies:
+    - "eslint@^8.56.0"
+    - "@kreozalabs/eslint-config@1.0.0"
+
+- id: kreoza-gofmt
+  name: Kreoza GoFmt
+  entry: gofmt -w
+  language: system
+  types: [go]
+
+- id: kreoza-ruff
+  name: Kreoza Ruff
+  entry: ruff format
+  language: python
+  types: [python]
+  additional_dependencies: ["ruff"]

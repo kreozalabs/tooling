@@ -1,0 +1,25 @@
+{
+  "name": "@kreozalabs/stylelint-config",
+  "version": "1.0.0",
+  "description": "Shareable Stylelint configuration for Kreoza",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "stylelint": ">=16"
+  },
+  "dependencies": {
+    "stylelint-config-standard": "^36.0.0"
+  },
+  "author": "Kreoza Labs",
+  "license": "BSD-3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kreozalabs/tooling.git",
+    "directory": "packages/stylelint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/kreozalabs/tooling/issues"
+  }
+}

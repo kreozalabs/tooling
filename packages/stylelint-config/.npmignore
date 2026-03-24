@@ -1,0 +1,9 @@
+# Ignore everything except necessary files
+*
+
+# Allow these files
+!package.json
+!README.md
+!LICENSE
+!index.js
+!*.d.ts
